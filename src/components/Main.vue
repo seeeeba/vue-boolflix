@@ -16,7 +16,7 @@ export default {
         MovieCard
     },
     props: {
-        MoviesList: []
+        MoviesList: Array
     }
 }
 

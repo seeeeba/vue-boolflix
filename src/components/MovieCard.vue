@@ -1,6 +1,6 @@
 <template>
     <div class="movie">
-        <h4>ciao</h4>
+        Ciao sono un film
     </div>
 </template>
 

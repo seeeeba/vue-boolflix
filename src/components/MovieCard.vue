@@ -1,9 +1,9 @@
 <template>
     <div class="movie">
-        <div>Titolo: {{infos.title}}</div> 
-        <div>Titolo originale: {{infos.original_title}}</div> 
-        <div>Lingua: {{infos.original_language}}</div> 
-        <div>Voto {{infos.vote_average}}</div> 
+        <div>Titolo: {{moviesInfos.title}}</div> 
+        <div>Titolo originale: {{moviesInfos.original_title}}</div> 
+        <div>Lingua: {{moviesInfos.original_language}}</div> 
+        <div>Voto: {{moviesInfos.vote_average}}</div> 
     </div>
 </template>
 
@@ -11,7 +11,7 @@
 export default {
     name: "MovieCard",
     props: {
-        infos: Object
+        moviesInfos: Object
     }
 }
 </script>

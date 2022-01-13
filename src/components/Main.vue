@@ -1,7 +1,7 @@
 <template>
     <main>
         <h2>Film</h2>
-        <MovieCard v-for="movie in moviesList" :key='movie.id' />
+        <MovieCard v-for="movie in moviesList" :key='movie.id' :infos="movie" />
     </main>
 </template>
 
@@ -16,7 +16,7 @@ export default {
         MovieCard
     },
     props: {
-        MoviesList: Array
+        moviesList: Array
     }
 }
 

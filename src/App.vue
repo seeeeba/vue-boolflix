@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Header @searchDone="search" />
-    <Main :MoviesList="moviesArray" />
+    <Main :moviesList="moviesArray" />
   </div>
 </template>
 

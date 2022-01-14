@@ -1,9 +1,10 @@
 <template>
     <main>
-        <div class="">
+        <div class="main-container">
             <h2>Film</h2>
             <MovieCard v-for="movie in moviesList" :key='movie.id' :moviesInfos="movie" />
-        
+        </div>
+        <div class="main-container">
             <h2>Serie Tv</h2>
             <MovieCard v-for="serie in seriesList" :key='serie.id' :moviesInfos="serie"/>
         </div>
@@ -29,3 +30,11 @@ export default {
 }
 
 </script>
+
+<style lang="scss" scoped>
+
+.main-container{
+    display: flex;
+}
+
+</style>

@@ -22,7 +22,7 @@ export default {
   data: function(){
     return{
       queryValue: '',
-      apiKey: '869e287fe863ddfcc717d89513cac592',
+      api_key: '869e287fe863ddfcc717d89513cac592',
       moviesArray:[],
       seriesArray: []
     }
@@ -41,7 +41,7 @@ export default {
         'https://api.themoviedb.org/3/search/movie',
         {
           params: {
-            api_key: this.apiKey,
+            api_key: this.api_key,
             query: this.queryValue
           }
         }
@@ -54,7 +54,7 @@ export default {
         'https://api.themoviedb.org/3/search/tv',
         {
           params: {
-            api_key: this.apikey,
+            api_key: this.api_key,
             query: this.queryValue
           }
         }

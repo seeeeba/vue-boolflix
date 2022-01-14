@@ -66,6 +66,10 @@ export default {
     flex-shrink: 0;
 }
 
+.card{
+    display: none;
+}
+
 .movie:hover .cover{
     display: none;
 }

@@ -30,7 +30,7 @@
             </div> 
 
             <div v-if="moviesInfos.overview" class="overview">
-                <span class="bold">
+                <span>
                     Overview:
                 </span>
                 {{ moviesInfos.overview }}
@@ -68,6 +68,10 @@ export default {
 
 .card{
     display: none;
+    color: white;}
+
+    .overview{
+        margin-top: 10px;
 }
 
 .movie:hover .cover{
